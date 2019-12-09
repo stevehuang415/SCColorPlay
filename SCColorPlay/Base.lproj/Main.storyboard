@@ -30,14 +30,14 @@
                                 <rect key="frame" x="89" y="155" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="GreenSlicderVC:" destination="BYZ-38-t0r" eventType="valueChanged" id="TQE-lu-p4O"/>
+                                    <action selector="RedSliderVC:" destination="BYZ-38-t0r" eventType="valueChanged" id="iqY-Hy-xmT"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="gc7-2s-G1X">
                                 <rect key="frame" x="89" y="228" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="BlueSliderVC:" destination="BYZ-38-t0r" eventType="valueChanged" id="qlh-1N-o2u"/>
+                                    <action selector="RedSliderVC:" destination="BYZ-38-t0r" eventType="valueChanged" id="bLf-hX-oC8"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E18-MN-WlD">
@@ -94,7 +94,7 @@
                                 <rect key="frame" x="88" y="548" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="AlphaSliderVC:" destination="BYZ-38-t0r" eventType="valueChanged" id="yLd-yn-QpK"/>
+                                    <action selector="RedSliderVC:" destination="BYZ-38-t0r" eventType="valueChanged" id="QFI-Hu-LXx"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alpha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2f-hZ-6e9">
